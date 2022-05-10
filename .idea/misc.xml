@@ -3,17 +3,44 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-anydpi/ic_bnv_emotion.xml" value="0.103" />
+        <entry key="app/src/main/res/drawable-anydpi/ic_feeling_folder.xml" value="0.103" />
+        <entry key="app/src/main/res/drawable/bnv_color.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bnv_icon_color.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/calendar_clicked_shape.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/menu_selector_color.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/radius_btn.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/radius_btn2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/selector_bnv_menu_color.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/todolist_shape.xml" value="0.113" />
         <entry key="app/src/main/res/drawable/weather.xml" value="0.139" />
+        <entry key="app/src/main/res/font/kyobofont.xml" value="0.12685185185185185" />
         <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_intro.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19537037037037036" />
-        <entry key="app/src/main/res/layout/calendar_fragment.xml" value="0.21666666666666667" />
-        <entry key="app/src/main/res/layout/feeling_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_calendar_select.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/activity_intro.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_to_do_list_clicked.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_weather.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/calendar.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/calendar_fragment.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/calendar_fragment_viewpager.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/feeling_fragment.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/home_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/home_fragment.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/homefragment_recyclerview_weather.xml" value="0.11" />
+        <entry key="app/src/main/res/layout/item_calendar_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/list_item_calendar.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/list_item_weather.xml" value="0.125" />
         <entry key="app/src/main/res/layout/recycler_calendar_select.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/recycler_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/recycler_item_todolist.xml" value="0.12314814814814815" />
         <entry key="app/src/main/res/layout/recycler_todolist.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/layout/recycler_weather.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/todolist_recycler_item_select.xml" value="0.1" />
         <entry key="app/src/main/res/menu/bnv.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/bnv_selector_color.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/menu_toolbar.xml" value="0.1" />
+        <entry key="app/src/main/res/xml/network_security_config.xml" value="0.1830776843146957" />
       </map>
     </option>
   </component>

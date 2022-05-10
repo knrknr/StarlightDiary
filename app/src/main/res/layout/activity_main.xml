@@ -7,17 +7,33 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" />
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bnv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:menu="@menu/bnv"/>
+        app:menu="@menu/bnv"
+        android:background="@color/white"
+        app:itemIconTint="@color/bnv_color"
+        app:itemRippleColor="@color/bnv_color"
+        app:itemTextColor="@color/bnv_color"
+        app:labelVisibilityMode="labeled"/>
+
+
+
 
 
 

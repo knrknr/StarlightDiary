@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/starlight_background3">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2022년"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kyobohandwriting2019"
+            android:layout_margin="8dp"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="#3D6998" />
+
+        <TextView
+            android:id="@+id/tv_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5월"
+            android:fontFamily="@font/kyobohandwriting2019"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="#3D6998"
+            android:layout_toRightOf="@id/tv_year"/>
+
+        <TextView
+            android:id="@+id/tv_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2일"
+            android:fontFamily="@font/kyobohandwriting2019"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="#3D6998"
+            android:layout_toRightOf="@id/tv_month"/>
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/todolist_shape"
+
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_schedule_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="제목 : "
+                android:textColor="@color/white"
+                android:fontFamily="@font/kyobohandwriting2019"
+                android:padding="16dp"/>
+
+            <EditText
+                android:id="@+id/et_schedule_message"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_below="@id/et_schedule_title"
+                android:gravity="top"
+                android:hint="내용 : "
+                android:textColor="@color/white"
+                android:fontFamily="@font/kyobohandwriting2019"
+                android:padding="16dp" />
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_below="@id/et_schedule_message"/>
+
+            <Button
+                android:id="@+id/btn_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/radius_btn"
+                android:text="이미지 선택"
+                android:textColor="@color/white"
+                android:fontFamily="@font/kyobohandwriting2019"
+                android:layout_below="@id/iv"
+                android:layout_marginLeft="12dp"
+                />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/radius_btn2"
+                android:text="저장"
+                android:fontFamily="@font/kyobohandwriting2019"
+                android:textColor="@color/white"
+                android:layout_below="@id/iv"
+                android:layout_toRightOf="@id/btn_image"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="12dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

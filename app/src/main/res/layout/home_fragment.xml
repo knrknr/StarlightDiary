@@ -4,50 +4,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="#FF9BC0DA">
+    android:background="@drawable/star_background_intro">
 
     <ImageView
         android:id="@+id/iv_home_logo"
         android:layout_width="match_parent"
-        android:layout_height="270dp"
+        android:layout_height="300dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/starlight_diary_intro" />
+        android:src="@drawable/starlightdiary2"
+        android:layout_marginTop="36dp"/>
 
-    <TextView
-        android:id="@+id/tv_date"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginBottom="16dp"
-        android:text="2022-04-20"
-        android:textSize="24sp"
-        android:textColor="@color/white"/>
+        android:gravity="center">
 
-    <TextView
-        android:id="@+id/tv_weather"
+        <TextView
+            android:id="@+id/tv_home_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24sp"
+            android:text="2022"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/kyobohandwriting2019"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_weather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Today's weather"
         android:textColor="@color/white"
-        android:layout_gravity="center"
+        android:fontFamily="@font/kyobohandwriting2019"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
         android:textSize="24sp"
-        android:background="@drawable/weather"
-        android:paddingTop="8dp"
-        android:paddingBottom="56dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
         android:paddingRight="8dp"
-        android:paddingLeft="8dp"/>
+        android:paddingLeft="8dp"
+        android:background="@drawable/radius_btn2"
+        android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/btn_todolist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Today's to do list"
+        android:fontFamily="@font/kyobohandwriting2019"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         android:textAllCaps="false"
         android:textSize="24sp"
-        android:layout_gravity="center"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:padding="8dp"
-        android:backgroundTint="#FFE8DA83"/>
+        android:background="@drawable/radius_btn"/>
 
 
 

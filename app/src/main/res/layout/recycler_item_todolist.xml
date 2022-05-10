@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/todolist_shape"
+    android:padding="8dp"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title"
+        android:text="title"
+        android:fontFamily="@font/kyobohandwriting2019"
+        android:textSize="30sp"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textColor="#5EBFEC"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_margin="16dp"
+        android:layout_below="@id/tv_title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_msg"
+        android:text="message"
+        android:fontFamily="@font/kyobohandwriting2019"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/iv"
+        android:padding="8dp"/>
+
+
+</RelativeLayout>

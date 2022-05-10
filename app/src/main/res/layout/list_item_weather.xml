@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="12dp"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00시 날씨"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:fontFamily="@font/kyobohandwriting2019"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="강수 형태 : "
+                android:textSize="20sp"
+                android:paddingRight="30dp"
+                android:fontFamily="@font/kyobohandwriting2019"/>
+            <TextView
+                android:id="@+id/rainy_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:fontFamily="@font/kyobohandwriting2019"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="습도 : "
+                android:textSize="20sp"
+                android:paddingRight="30dp"
+                android:fontFamily="@font/kyobohandwriting2019"/>
+            <TextView
+                android:id="@+id/tv_humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:fontFamily="@font/kyobohandwriting2019"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="하늘 상태 : "
+                android:textSize="20sp"
+                android:paddingRight="30dp"
+                android:fontFamily="@font/kyobohandwriting2019"/>
+            <TextView
+                android:id="@+id/tv_sky"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:fontFamily="@font/kyobohandwriting2019"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기온 : "
+                android:textSize="20sp"
+                android:paddingRight="30dp"
+                android:fontFamily="@font/kyobohandwriting2019"/>
+            <TextView
+                android:id="@+id/tv_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:fontFamily="@font/kyobohandwriting2019"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+</LinearLayout>

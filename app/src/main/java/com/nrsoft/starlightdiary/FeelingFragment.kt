@@ -1,5 +1,6 @@
 package com.nrsoft.starlightdiary
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater

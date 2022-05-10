@@ -6,28 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".CalendarFragment"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@drawable/star_background_intro">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Calendar"
-        android:layout_gravity="center"
-        android:layout_margin="4dp"
-        android:textSize="40sp"
-        android:textStyle="italic"
-        android:textColor="#FF3D6998"/>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="8dp"
-        android:background="#FFB7D0EA"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Calendar"
+       android:textSize="36sp"
+       android:textColor="#FF4A7CC8"
+       android:textStyle="bold"
+       android:fontFamily="@font/kyobohandwriting2019"
+       android:layout_gravity="center_horizontal"
+       android:padding="8dp"/>
 
     <CalendarView
-        android:id="@+id/calendar"
+        android:id="@+id/calendarView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/container"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
+<!--        android:background="#9DD6DC"/>-->
+
+
+
 
 </LinearLayout>
